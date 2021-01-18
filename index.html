@@ -20,12 +20,13 @@
 </head>
 <body>
   <header class="header">
-    <nav class="flex flex-jc-sb flex-ai-c">
+    <div class="overlay has-fade"></div>
+    <nav class="container flex flex-jc-sb flex-ai-c">
       <a href="/" class="header__logo">
         <img src="images/logo.svg" alt="Easybank" />
       </a>
 
-      <a href="#" class="header__menu hide-for-desktop">
+      <a id="btnHamburger" href="#" class="header__toggle hide-for-desktop ">
         <span></span>
         <span></span>
         <span></span>
@@ -41,9 +42,17 @@
 
       <a href="#" class="button header__cta hide-for-mobile">Request Invite</a>
     </nav>
+
+    <div class="header__menu has-fade">
+      <a href="">Home</a>
+      <a href="">About</a>
+      <a href="">Contact</a>
+      <a href="">Blog</a>
+      <a href="">Careers</a>
+    </div>
   </header>
 
-  <!--
+  
   
   
  
@@ -108,7 +117,7 @@
   After a lot of hard work by the whole team, we’re excited to launch our closed beta. 
   It’s easy to request an invite through the site ...
 
-  
+  <!--
 
   About Us
   Contact
@@ -118,14 +127,14 @@
   Privacy Policy
 
   Request Invite
--->
+
   © Easybank. All Rights Reserved
   
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="https://www.linkedin.com/in/tin-kova%C4%8Devi%C4%87-0b2411203/">Tin Kovačević</a>.
   </div>
-
+-->
 
   <script src="app/js/script.js"></script>
 </body>
